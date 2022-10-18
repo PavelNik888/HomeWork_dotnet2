@@ -4,7 +4,7 @@ int number = int.Parse(Console.ReadLine());
 
 if (number < 100)
 {
-    Console.WriteLine("третий цифры нет!")
+    Console.WriteLine("третий цифры нет!");
 }
 else
 {
@@ -24,10 +24,10 @@ else
             coef *= 10;
         }
     }
-    Console.WriteLine($"The third number is {(n / coef) % 10}");
+    Console.WriteLine($"The third number is {(number / coef) % 10}");
     }
     else
     {
-     Console.WriteLine($"The third number is {n % 10}");   
+     Console.WriteLine($"The third number is {number % 10}");   
     }
 }
